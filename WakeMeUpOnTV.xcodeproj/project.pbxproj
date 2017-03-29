@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		262734661E8BFC2500EB908E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262734651E8BFC2500EB908E /* AppDelegate.swift */; };
+		262734681E8BFC2500EB908E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262734671E8BFC2500EB908E /* ViewController.swift */; };
+		2627346B1E8BFC2500EB908E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 262734691E8BFC2500EB908E /* Main.storyboard */; };
+		2627346D1E8BFC2500EB908E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2627346C1E8BFC2500EB908E /* Assets.xcassets */; };
+		262734701E8BFC2500EB908E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2627346E1E8BFC2500EB908E /* LaunchScreen.storyboard */; };
+		2627347B1E8BFC2500EB908E /* WakeMeUpOnTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2627347A1E8BFC2500EB908E /* WakeMeUpOnTVTests.swift */; };
+		262734861E8BFC2500EB908E /* WakeMeUpOnTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262734851E8BFC2500EB908E /* WakeMeUpOnTVUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		262734771E8BFC2500EB908E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2627345A1E8BFC2400EB908E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 262734611E8BFC2400EB908E;
+			remoteInfo = WakeMeUpOnTV;
+		};
+		262734821E8BFC2500EB908E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2627345A1E8BFC2400EB908E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 262734611E8BFC2400EB908E;
+			remoteInfo = WakeMeUpOnTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		262734621E8BFC2500EB908E /* WakeMeUpOnTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WakeMeUpOnTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		262734651E8BFC2500EB908E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		262734671E8BFC2500EB908E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2627346A1E8BFC2500EB908E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2627346C1E8BFC2500EB908E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2627346F1E8BFC2500EB908E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		262734711E8BFC2500EB908E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		262734761E8BFC2500EB908E /* WakeMeUpOnTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WakeMeUpOnTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2627347A1E8BFC2500EB908E /* WakeMeUpOnTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeMeUpOnTVTests.swift; sourceTree = "<group>"; };
+		2627347C1E8BFC2500EB908E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		262734811E8BFC2500EB908E /* WakeMeUpOnTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WakeMeUpOnTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		262734851E8BFC2500EB908E /* WakeMeUpOnTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeMeUpOnTVUITests.swift; sourceTree = "<group>"; };
+		262734871E8BFC2500EB908E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2627345F1E8BFC2400EB908E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		262734731E8BFC2500EB908E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2627347E1E8BFC2500EB908E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		262734591E8BFC2400EB908E = {
+			isa = PBXGroup;
+			children = (
+				262734641E8BFC2500EB908E /* WakeMeUpOnTV */,
+				262734791E8BFC2500EB908E /* WakeMeUpOnTVTests */,
+				262734841E8BFC2500EB908E /* WakeMeUpOnTVUITests */,
+				262734631E8BFC2500EB908E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		262734631E8BFC2500EB908E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				262734621E8BFC2500EB908E /* WakeMeUpOnTV.app */,
+				262734761E8BFC2500EB908E /* WakeMeUpOnTVTests.xctest */,
+				262734811E8BFC2500EB908E /* WakeMeUpOnTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		262734641E8BFC2500EB908E /* WakeMeUpOnTV */ = {
+			isa = PBXGroup;
+			children = (
+				262734651E8BFC2500EB908E /* AppDelegate.swift */,
+				262734671E8BFC2500EB908E /* ViewController.swift */,
+				262734691E8BFC2500EB908E /* Main.storyboard */,
+				2627346C1E8BFC2500EB908E /* Assets.xcassets */,
+				2627346E1E8BFC2500EB908E /* LaunchScreen.storyboard */,
+				262734711E8BFC2500EB908E /* Info.plist */,
+			);
+			path = WakeMeUpOnTV;
+			sourceTree = "<group>";
+		};
+		262734791E8BFC2500EB908E /* WakeMeUpOnTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				2627347A1E8BFC2500EB908E /* WakeMeUpOnTVTests.swift */,
+				2627347C1E8BFC2500EB908E /* Info.plist */,
+			);
+			path = WakeMeUpOnTVTests;
+			sourceTree = "<group>";
+		};
+		262734841E8BFC2500EB908E /* WakeMeUpOnTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				262734851E8BFC2500EB908E /* WakeMeUpOnTVUITests.swift */,
+				262734871E8BFC2500EB908E /* Info.plist */,
+			);
+			path = WakeMeUpOnTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		262734611E8BFC2400EB908E /* WakeMeUpOnTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2627348A1E8BFC2500EB908E /* Build configuration list for PBXNativeTarget "WakeMeUpOnTV" */;
+			buildPhases = (
+				2627345E1E8BFC2400EB908E /* Sources */,
+				2627345F1E8BFC2400EB908E /* Frameworks */,
+				262734601E8BFC2400EB908E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WakeMeUpOnTV;
+			productName = WakeMeUpOnTV;
+			productReference = 262734621E8BFC2500EB908E /* WakeMeUpOnTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		262734751E8BFC2500EB908E /* WakeMeUpOnTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2627348D1E8BFC2500EB908E /* Build configuration list for PBXNativeTarget "WakeMeUpOnTVTests" */;
+			buildPhases = (
+				262734721E8BFC2500EB908E /* Sources */,
+				262734731E8BFC2500EB908E /* Frameworks */,
+				262734741E8BFC2500EB908E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				262734781E8BFC2500EB908E /* PBXTargetDependency */,
+			);
+			name = WakeMeUpOnTVTests;
+			productName = WakeMeUpOnTVTests;
+			productReference = 262734761E8BFC2500EB908E /* WakeMeUpOnTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		262734801E8BFC2500EB908E /* WakeMeUpOnTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 262734901E8BFC2500EB908E /* Build configuration list for PBXNativeTarget "WakeMeUpOnTVUITests" */;
+			buildPhases = (
+				2627347D1E8BFC2500EB908E /* Sources */,
+				2627347E1E8BFC2500EB908E /* Frameworks */,
+				2627347F1E8BFC2500EB908E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				262734831E8BFC2500EB908E /* PBXTargetDependency */,
+			);
+			name = WakeMeUpOnTVUITests;
+			productName = WakeMeUpOnTVUITests;
+			productReference = 262734811E8BFC2500EB908E /* WakeMeUpOnTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2627345A1E8BFC2400EB908E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Arai Koyo";
+				TargetAttributes = {
+					262734611E8BFC2400EB908E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KAF9CCB8MV;
+						ProvisioningStyle = Automatic;
+					};
+					262734751E8BFC2500EB908E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KAF9CCB8MV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 262734611E8BFC2400EB908E;
+					};
+					262734801E8BFC2500EB908E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KAF9CCB8MV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 262734611E8BFC2400EB908E;
+					};
+				};
+			};
+			buildConfigurationList = 2627345D1E8BFC2400EB908E /* Build configuration list for PBXProject "WakeMeUpOnTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 262734591E8BFC2400EB908E;
+			productRefGroup = 262734631E8BFC2500EB908E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				262734611E8BFC2400EB908E /* WakeMeUpOnTV */,
+				262734751E8BFC2500EB908E /* WakeMeUpOnTVTests */,
+				262734801E8BFC2500EB908E /* WakeMeUpOnTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		262734601E8BFC2400EB908E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262734701E8BFC2500EB908E /* LaunchScreen.storyboard in Resources */,
+				2627346D1E8BFC2500EB908E /* Assets.xcassets in Resources */,
+				2627346B1E8BFC2500EB908E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		262734741E8BFC2500EB908E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2627347F1E8BFC2500EB908E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2627345E1E8BFC2400EB908E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262734681E8BFC2500EB908E /* ViewController.swift in Sources */,
+				262734661E8BFC2500EB908E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		262734721E8BFC2500EB908E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2627347B1E8BFC2500EB908E /* WakeMeUpOnTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2627347D1E8BFC2500EB908E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262734861E8BFC2500EB908E /* WakeMeUpOnTVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		262734781E8BFC2500EB908E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 262734611E8BFC2400EB908E /* WakeMeUpOnTV */;
+			targetProxy = 262734771E8BFC2500EB908E /* PBXContainerItemProxy */;
+		};
+		262734831E8BFC2500EB908E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 262734611E8BFC2400EB908E /* WakeMeUpOnTV */;
+			targetProxy = 262734821E8BFC2500EB908E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		262734691E8BFC2500EB908E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2627346A1E8BFC2500EB908E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2627346E1E8BFC2500EB908E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2627346F1E8BFC2500EB908E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		262734881E8BFC2500EB908E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		262734891E8BFC2500EB908E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2627348B1E8BFC2500EB908E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KAF9CCB8MV;
+				INFOPLIST_FILE = WakeMeUpOnTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kkkkoyo.WakeMeUpOnTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2627348C1E8BFC2500EB908E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KAF9CCB8MV;
+				INFOPLIST_FILE = WakeMeUpOnTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kkkkoyo.WakeMeUpOnTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2627348E1E8BFC2500EB908E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KAF9CCB8MV;
+				INFOPLIST_FILE = WakeMeUpOnTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kkkkoyo.WakeMeUpOnTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WakeMeUpOnTV.app/WakeMeUpOnTV";
+			};
+			name = Debug;
+		};
+		2627348F1E8BFC2500EB908E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KAF9CCB8MV;
+				INFOPLIST_FILE = WakeMeUpOnTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kkkkoyo.WakeMeUpOnTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WakeMeUpOnTV.app/WakeMeUpOnTV";
+			};
+			name = Release;
+		};
+		262734911E8BFC2500EB908E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = KAF9CCB8MV;
+				INFOPLIST_FILE = WakeMeUpOnTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kkkkoyo.WakeMeUpOnTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WakeMeUpOnTV;
+			};
+			name = Debug;
+		};
+		262734921E8BFC2500EB908E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = KAF9CCB8MV;
+				INFOPLIST_FILE = WakeMeUpOnTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kkkkoyo.WakeMeUpOnTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WakeMeUpOnTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2627345D1E8BFC2400EB908E /* Build configuration list for PBXProject "WakeMeUpOnTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				262734881E8BFC2500EB908E /* Debug */,
+				262734891E8BFC2500EB908E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2627348A1E8BFC2500EB908E /* Build configuration list for PBXNativeTarget "WakeMeUpOnTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2627348B1E8BFC2500EB908E /* Debug */,
+				2627348C1E8BFC2500EB908E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2627348D1E8BFC2500EB908E /* Build configuration list for PBXNativeTarget "WakeMeUpOnTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2627348E1E8BFC2500EB908E /* Debug */,
+				2627348F1E8BFC2500EB908E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		262734901E8BFC2500EB908E /* Build configuration list for PBXNativeTarget "WakeMeUpOnTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				262734911E8BFC2500EB908E /* Debug */,
+				262734921E8BFC2500EB908E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2627345A1E8BFC2400EB908E /* Project object */;
+}
