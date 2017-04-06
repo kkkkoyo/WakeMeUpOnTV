@@ -14,7 +14,8 @@ class ViewController: UIViewController {
 
 
     @IBAction func NowButton(_ sender: Any) {
-        socket.emit("now")
+        comment.text = "NOW!"
+        socket.emit("from_client_nowButton")
     }
 
     @IBAction func Button(_ sender: Any) {
@@ -24,7 +25,7 @@ class ViewController: UIViewController {
         
         comment.text = getHour() + ":" + getMin() + "に設定しました"
         //TODO
-        socket.emit("from_client",getSetTime())
+        socket.emit("from_client_okButton",getSetTime())
     }
 
     @IBOutlet weak var date: UIDatePicker!
@@ -38,6 +39,8 @@ class ViewController: UIViewController {
         
         //TODO
         //キャンセル
+    socket.emit("from_client_stopButton")
+
     }
     
     
@@ -77,7 +80,7 @@ class ViewController: UIViewController {
     func getSetTime() ->String{
         let now = date.date
         let formatter = DateFormatter()
-        formatter.dateFormat = "yyyy/MM/dd HH:mm:ss"
+        formatter.dateFormat = "yyyy/MM/dd/HH/mm/ss"
         let nowString = formatter.string(from: now)
         return nowString
     }
