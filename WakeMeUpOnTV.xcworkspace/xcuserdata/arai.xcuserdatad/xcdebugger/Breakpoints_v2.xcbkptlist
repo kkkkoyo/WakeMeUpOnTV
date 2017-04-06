@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WakeMeUpOnTV/ViewController.swift"
+            timestampString = "513165423.117467"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WakeMeUpOnTV/ViewController.swift"
+            timestampString = "513165423.117467"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WakeMeUpOnTV/ViewController.swift"
+            timestampString = "513165423.117467"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WakeMeUpOnTV.ViewController.viewDidLoad () -&gt; ()"
+                  moduleName = "WakeMeUpOnTV"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arai/GitHub/Swift/WakeMeUpOnTV/WakeMeUpOnTV/ViewController.swift"
+                  timestampString = "513163385.677534"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "714">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WakeMeUpOnTV.ViewController.(viewDidLoad () -&gt; ()).(closure #1)"
+                  moduleName = "WakeMeUpOnTV"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arai/GitHub/Swift/WakeMeUpOnTV/WakeMeUpOnTV/ViewController.swift"
+                  timestampString = "513163385.678998"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WakeMeUpOnTV/ViewController.swift"
+            timestampString = "513165423.117467"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WakeMeUpOnTV.ViewController.viewDidLoad () -&gt; ()"
+                  moduleName = "WakeMeUpOnTV"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arai/GitHub/Swift/WakeMeUpOnTV/WakeMeUpOnTV/ViewController.swift"
+                  timestampString = "513163385.683037"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "758">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WakeMeUpOnTV.ViewController.(viewDidLoad () -&gt; ()).(closure #1)"
+                  moduleName = "WakeMeUpOnTV"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arai/GitHub/Swift/WakeMeUpOnTV/WakeMeUpOnTV/ViewController.swift"
+                  timestampString = "513163385.68651"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "175">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WakeMeUpOnTV/ViewController.swift"
+            timestampString = "513165423.117467"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WakeMeUpOnTV.ViewController.viewDidLoad () -&gt; ()"
+                  moduleName = "WakeMeUpOnTV"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arai/GitHub/Swift/WakeMeUpOnTV/WakeMeUpOnTV/ViewController.swift"
+                  timestampString = "513163385.691173"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "812">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WakeMeUpOnTV.ViewController.(viewDidLoad () -&gt; ()).(closure #2)"
+                  moduleName = "WakeMeUpOnTV"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arai/GitHub/Swift/WakeMeUpOnTV/WakeMeUpOnTV/ViewController.swift"
+                  timestampString = "513163385.692612"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WakeMeUpOnTV/ViewController.swift"
+            timestampString = "513165423.117467"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WakeMeUpOnTV.ViewController.viewDidLoad () -&gt; ()"
+                  moduleName = "WakeMeUpOnTV"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arai/GitHub/Swift/WakeMeUpOnTV/WakeMeUpOnTV/ViewController.swift"
+                  timestampString = "513163385.695679"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "856">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WakeMeUpOnTV.ViewController.(viewDidLoad () -&gt; ()).(closure #2)"
+                  moduleName = "WakeMeUpOnTV"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arai/GitHub/Swift/WakeMeUpOnTV/WakeMeUpOnTV/ViewController.swift"
+                  timestampString = "513163385.697202"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "175">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WakeMeUpOnTV/ViewController.swift"
+            timestampString = "513165423.117467"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WakeMeUpOnTV/ViewController.swift"
+            timestampString = "513165423.117467"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WakeMeUpOnTV/ViewController.swift"
+            timestampString = "513158577.430127"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WakeMeUpOnTV.ViewController.socket.getter : SocketIO.SocketIOClient"
+                  moduleName = "WakeMeUpOnTV"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arai/GitHub/Swift/WakeMeUpOnTV/WakeMeUpOnTV/ViewController.swift"
+                  timestampString = "513163385.703725"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WakeMeUpOnTV.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; WakeMeUpOnTV.ViewController"
+                  moduleName = "WakeMeUpOnTV"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arai/GitHub/Swift/WakeMeUpOnTV/WakeMeUpOnTV/ViewController.swift"
+                  timestampString = "513163385.706238"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WakeMeUpOnTV.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;WakeMeUpOnTV.ViewController&gt;"
+                  moduleName = "WakeMeUpOnTV"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arai/GitHub/Swift/WakeMeUpOnTV/WakeMeUpOnTV/ViewController.swift"
+                  timestampString = "513163385.709108"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,958 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04268FB52E6A9766A2DB0AA335C3DC46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		04C47BE51BBA5BC4FC66086431D22217 /* SocketEnginePacketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F0BEBFC24363C1C12BFED1C52E09A /* SocketEnginePacketType.swift */; };
+		0A6122C81DE633B2A2B64866913DAD70 /* Pods-WakeMeUpOnTV-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B024707B511A129BB3BCCF314B525A /* Pods-WakeMeUpOnTV-dummy.m */; };
+		142D1235749BFEEB5F56007C9AFCD8D6 /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F244CCBBA45069AA8A524715B8E5966 /* SocketAckManager.swift */; };
+		195BA73FEBAB1F4446627663FD20FC96 /* Pods-WakeMeUpOnTVUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FD1C0F1A6E4A691E4B4959876BF0C8C /* Pods-WakeMeUpOnTVUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BAA5F94A249336181E836C3432728A0 /* SocketIOClientConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9693A3F4FEDC4DE12781103EE82CB97D /* SocketIOClientConfiguration.swift */; };
+		310BF420769FF4CD201803E017B424EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3F5F40B3E64ACEAC4C32D021EAF8DA19 /* SocketAckEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59BDFD692606D25A027C43E6C89A5C /* SocketAckEmitter.swift */; };
+		5B07AD47652CCF9CAFD6120AFEC434BB /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F0F03BBE73D643AD0486ADFE0A8AC5 /* SocketEngine.swift */; };
+		5DAD561D1B3266FB3BB1AB7FC2712EC6 /* Socket.IO-Client-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87905EC17B5665096942646DB7542569 /* Socket.IO-Client-Swift-dummy.m */; };
+		5E96DDAE5B705D02A956C5E44B9A99DD /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D782257DB50BC7B57630A5BD577C6 /* SocketEventHandler.swift */; };
+		612BED26F81CCFC6AEE375689717584B /* Socket.IO-Client-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F57EC4469168DB9A573C09EAF2AEF49 /* Socket.IO-Client-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61F2B8C53EE008903F3811A20F9AF70E /* SocketEngineWebsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5603ECF44D6231ED2C54E8BC2F385A37 /* SocketEngineWebsocket.swift */; };
+		65CA252C5060B3AE6430E4B7CF3C4312 /* SocketStringReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670BE73CF5968D8D6D6C8AAC526F90E2 /* SocketStringReader.swift */; };
+		6EF5A32683A60922FD6B887A7582E026 /* SocketIOClientSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320E64E91F0F5C8DABC045FC2BF66DF1 /* SocketIOClientSpec.swift */; };
+		7CE387651CA44136AA51EEF1D401994B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		81B1B30582BEAB372030B6D4ED6C4034 /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EAE89FD26A461FD18EFD671BC2A669 /* SocketIOClient.swift */; };
+		98A75194667CFBAD6D29E4B89BD13EDD /* Pods-WakeMeUpOnTV-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE7A9DF35B81410CEE6A47A183D2D97 /* Pods-WakeMeUpOnTV-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DE3C8514FB68D4ECE345F2098668E /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36F6652863175FDE16D90EF0BEF19B7 /* WebSocket.swift */; };
+		99F40EA2D806060CE1E74CD03866B574 /* Pods-WakeMeUpOnTVTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A797A05BA2A2161AF8DFC45787621144 /* Pods-WakeMeUpOnTVTests-dummy.m */; };
+		9EC20AEAF12D9B88D7C2352CAA6C7E07 /* SocketIOClientOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6DB44BEB912798F945A7288622BC11 /* SocketIOClientOption.swift */; };
+		A0C0749B5FEC2C78D10B68A27E2E1843 /* SocketExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83D48B450D21095FBEC2185F938BE67 /* SocketExtensions.swift */; };
+		A2BBD9003E7350174C7327CCAF722CB2 /* SocketEngineSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1670BB5EB79304C745E1AE522C2461EE /* SocketEngineSpec.swift */; };
+		A781235845E09D17E48325E4A5782F4F /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996BB3B147D524EF800F2194B91709F1 /* SSLSecurity.swift */; };
+		C70FFC92D3DF2721F5FFC0B62A1BD194 /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9571AF94B7FB655E7868AEF99404CB /* SocketAnyEvent.swift */; };
+		CCF414C3FD6A3CAEBD9E6A02A20CFB01 /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117F685036DDF69767FA0894A36AFD79 /* SocketPacket.swift */; };
+		D11099E3BD97AD84BC952D75501924C2 /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D342D3CD8230E8928AFA54BF2F79D0 /* SocketEngineClient.swift */; };
+		D25EC93449EFBE7E6C8E956F16DAFEFD /* SocketIOClientStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = F306E01D91D86C36440F2FAD6F23C988 /* SocketIOClientStatus.swift */; };
+		D62CE0FBACC0FEADA24C93F48D5F9230 /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A3BB339105AF5BC77EB85BD3CB18E6 /* SocketLogger.swift */; };
+		D63B18FEBD18DCE5C8E2F4185608B10C /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD80A7ADAB722173423A36E7463C4AFB /* SocketTypes.swift */; };
+		E44836D6E93955EBEE6899C9F6657D41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E5557953156F9315AE4C175BD9FA3DE5 /* Pods-WakeMeUpOnTVTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2396D64D277E1FB9BCA2E6C091A4CEAA /* Pods-WakeMeUpOnTVTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7A4234746445670F8D59D8B8D633756 /* SocketClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1526DC8C1273F235789BF159D7714F /* SocketClientManager.swift */; };
+		FA0DBFDE95518059C9516863677CC619 /* Pods-WakeMeUpOnTVUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D4E83D2CFE42C574ADDEC8DBD6937 /* Pods-WakeMeUpOnTVUITests-dummy.m */; };
+		FA80490DA9607BC1368E802323531EDB /* SocketEnginePollable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E330F9F321E4350813202BD51BC3F67A /* SocketEnginePollable.swift */; };
+		FEDEBDC219D50C1EA23E23184C5255E1 /* SocketParsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE9ACCB4FBAE731DCA98FD8DB00CF2B /* SocketParsable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CD3650BC0B580947EAD0EC0FA960215 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 761A089A1E8806AAC1EF9E68A17DF901;
+			remoteInfo = "Socket.IO-Client-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043D782257DB50BC7B57630A5BD577C6 /* SocketEventHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEventHandler.swift; path = Source/SocketEventHandler.swift; sourceTree = "<group>"; };
+		05DD98DF656FDC7D8E64CD40CC3F4047 /* Socket.IO-Client-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Socket.IO-Client-Swift.modulemap"; sourceTree = "<group>"; };
+		0C1565CC322B964B226DD83C7806CAEF /* Pods-WakeMeUpOnTVTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WakeMeUpOnTVTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0F244CCBBA45069AA8A524715B8E5966 /* SocketAckManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAckManager.swift; path = Source/SocketAckManager.swift; sourceTree = "<group>"; };
+		0FD1C0F1A6E4A691E4B4959876BF0C8C /* Pods-WakeMeUpOnTVUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WakeMeUpOnTVUITests-umbrella.h"; sourceTree = "<group>"; };
+		117F685036DDF69767FA0894A36AFD79 /* SocketPacket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketPacket.swift; path = Source/SocketPacket.swift; sourceTree = "<group>"; };
+		1670BB5EB79304C745E1AE522C2461EE /* SocketEngineSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngineSpec.swift; path = Source/SocketEngineSpec.swift; sourceTree = "<group>"; };
+		168DF9954CEE5951161407211CD223C0 /* Pods_WakeMeUpOnTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WakeMeUpOnTV.framework; path = "Pods-WakeMeUpOnTV.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D0E96DEFAEB851CF59214C279AE4E68 /* Pods-WakeMeUpOnTVTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WakeMeUpOnTVTests-resources.sh"; sourceTree = "<group>"; };
+		2139EB208291CDE304C415D57AB534E4 /* Pods-WakeMeUpOnTVTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WakeMeUpOnTVTests-frameworks.sh"; sourceTree = "<group>"; };
+		2396D64D277E1FB9BCA2E6C091A4CEAA /* Pods-WakeMeUpOnTVTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WakeMeUpOnTVTests-umbrella.h"; sourceTree = "<group>"; };
+		24CCECE5940EB81EB11EB3DDEF747340 /* Pods-WakeMeUpOnTVTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WakeMeUpOnTVTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		29A3BB339105AF5BC77EB85BD3CB18E6 /* SocketLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketLogger.swift; path = Source/SocketLogger.swift; sourceTree = "<group>"; };
+		2A0084279BB3BF0BDA6CA82A98E84EB8 /* Pods-WakeMeUpOnTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WakeMeUpOnTV.debug.xcconfig"; sourceTree = "<group>"; };
+		2B069E69A04BD4555A7A37903B9892F7 /* Pods-WakeMeUpOnTV-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WakeMeUpOnTV-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2B1526DC8C1273F235789BF159D7714F /* SocketClientManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketClientManager.swift; path = Source/SocketClientManager.swift; sourceTree = "<group>"; };
+		30EE1D72460ECCE07427A6D8A5ABFFF2 /* Pods-WakeMeUpOnTVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WakeMeUpOnTVTests.debug.xcconfig"; sourceTree = "<group>"; };
+		31F0F03BBE73D643AD0486ADFE0A8AC5 /* SocketEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngine.swift; path = Source/SocketEngine.swift; sourceTree = "<group>"; };
+		320E64E91F0F5C8DABC045FC2BF66DF1 /* SocketIOClientSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClientSpec.swift; path = Source/SocketIOClientSpec.swift; sourceTree = "<group>"; };
+		3354612226DA3AA86B887E5EEE2EAC92 /* Pods-WakeMeUpOnTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WakeMeUpOnTV.release.xcconfig"; sourceTree = "<group>"; };
+		33C0F24DB10C219BE1500DADCAB2B980 /* Pods-WakeMeUpOnTVUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WakeMeUpOnTVUITests-resources.sh"; sourceTree = "<group>"; };
+		351E9CAD4B4510F8E41868909AD670E9 /* Pods-WakeMeUpOnTVUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WakeMeUpOnTVUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38EAE89FD26A461FD18EFD671BC2A669 /* SocketIOClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClient.swift; path = Source/SocketIOClient.swift; sourceTree = "<group>"; };
+		3EB6219401144435647344B68DD4F0D0 /* Pods-WakeMeUpOnTV-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WakeMeUpOnTV-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F57EC4469168DB9A573C09EAF2AEF49 /* Socket.IO-Client-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Socket.IO-Client-Swift-umbrella.h"; sourceTree = "<group>"; };
+		4E852147BB8CA11C60363B97C1193E41 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E8D7F284DC4E080C811FAABAEE05E31 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FB06277C9DBBC54BFF743A1AAE69A69 /* Pods-WakeMeUpOnTVUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WakeMeUpOnTVUITests.modulemap"; sourceTree = "<group>"; };
+		51D342D3CD8230E8928AFA54BF2F79D0 /* SocketEngineClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngineClient.swift; path = Source/SocketEngineClient.swift; sourceTree = "<group>"; };
+		525F0BEBFC24363C1C12BFED1C52E09A /* SocketEnginePacketType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEnginePacketType.swift; path = Source/SocketEnginePacketType.swift; sourceTree = "<group>"; };
+		5603ECF44D6231ED2C54E8BC2F385A37 /* SocketEngineWebsocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngineWebsocket.swift; path = Source/SocketEngineWebsocket.swift; sourceTree = "<group>"; };
+		591AEC4537ADF387371F3BFFABE05F98 /* Pods-WakeMeUpOnTVUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WakeMeUpOnTVUITests-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		670BE73CF5968D8D6D6C8AAC526F90E2 /* SocketStringReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketStringReader.swift; path = Source/SocketStringReader.swift; sourceTree = "<group>"; };
+		679DD8DF0E1832A0D1DC9E99A0C0FD78 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67DA887A433AA4BDCA721D4E9EE042FE /* Pods-WakeMeUpOnTV-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WakeMeUpOnTV-resources.sh"; sourceTree = "<group>"; };
+		6AE9ACCB4FBAE731DCA98FD8DB00CF2B /* SocketParsable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketParsable.swift; path = Source/SocketParsable.swift; sourceTree = "<group>"; };
+		6B60190A983F3D7799E5C38BFFE508DF /* Pods-WakeMeUpOnTVUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WakeMeUpOnTVUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6D9571AF94B7FB655E7868AEF99404CB /* SocketAnyEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAnyEvent.swift; path = Source/SocketAnyEvent.swift; sourceTree = "<group>"; };
+		6F990922E6A08952D6ADA6D1545ACB52 /* Pods-WakeMeUpOnTVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WakeMeUpOnTVUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		87905EC17B5665096942646DB7542569 /* Socket.IO-Client-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Socket.IO-Client-Swift-dummy.m"; sourceTree = "<group>"; };
+		8F79FC7CE74D0294495579B2C76CA582 /* Pods-WakeMeUpOnTVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WakeMeUpOnTVUITests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94B024707B511A129BB3BCCF314B525A /* Pods-WakeMeUpOnTV-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WakeMeUpOnTV-dummy.m"; sourceTree = "<group>"; };
+		9693A3F4FEDC4DE12781103EE82CB97D /* SocketIOClientConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClientConfiguration.swift; path = Source/SocketIOClientConfiguration.swift; sourceTree = "<group>"; };
+		996BB3B147D524EF800F2194B91709F1 /* SSLSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Source/SSLSecurity.swift; sourceTree = "<group>"; };
+		9B59BDFD692606D25A027C43E6C89A5C /* SocketAckEmitter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAckEmitter.swift; path = Source/SocketAckEmitter.swift; sourceTree = "<group>"; };
+		9EE1A3B40C4DB00F2549664C2A6187D9 /* Pods-WakeMeUpOnTV.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WakeMeUpOnTV.modulemap"; sourceTree = "<group>"; };
+		9F9012D1CF800972BED941165B70893F /* Socket.IO-Client-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Socket.IO-Client-Swift.xcconfig"; sourceTree = "<group>"; };
+		A797A05BA2A2161AF8DFC45787621144 /* Pods-WakeMeUpOnTVTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WakeMeUpOnTVTests-dummy.m"; sourceTree = "<group>"; };
+		ABDA5488963F1762EF44A7D3CF9E1500 /* Pods_WakeMeUpOnTVUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WakeMeUpOnTVUITests.framework; path = "Pods-WakeMeUpOnTVUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC6DB44BEB912798F945A7288622BC11 /* SocketIOClientOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClientOption.swift; path = Source/SocketIOClientOption.swift; sourceTree = "<group>"; };
+		BD6D4E83D2CFE42C574ADDEC8DBD6937 /* Pods-WakeMeUpOnTVUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WakeMeUpOnTVUITests-dummy.m"; sourceTree = "<group>"; };
+		D8875CC6BEDB6E823EF9ACB2DE0A7AB3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8B6B7332A68BB40F5FD44A7CEDB3E2A /* Pods-WakeMeUpOnTV-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WakeMeUpOnTV-frameworks.sh"; sourceTree = "<group>"; };
+		D9B38A5E25B88074A6B7C93C2AAA58F3 /* SocketIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SocketIO.framework; path = "Socket.IO-Client-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9E2C53A96C677AB0A777CD580CD728 /* Pods_WakeMeUpOnTVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WakeMeUpOnTVTests.framework; path = "Pods-WakeMeUpOnTVTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E03D962EA156FA017160D20D15C9BA72 /* Pods-WakeMeUpOnTVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WakeMeUpOnTVTests.release.xcconfig"; sourceTree = "<group>"; };
+		E330F9F321E4350813202BD51BC3F67A /* SocketEnginePollable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEnginePollable.swift; path = Source/SocketEnginePollable.swift; sourceTree = "<group>"; };
+		EDBA3091368644FAB69F3E173EAD15A6 /* Pods-WakeMeUpOnTVTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WakeMeUpOnTVTests.modulemap"; sourceTree = "<group>"; };
+		EEE7A9DF35B81410CEE6A47A183D2D97 /* Pods-WakeMeUpOnTV-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WakeMeUpOnTV-umbrella.h"; sourceTree = "<group>"; };
+		F306E01D91D86C36440F2FAD6F23C988 /* SocketIOClientStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClientStatus.swift; path = Source/SocketIOClientStatus.swift; sourceTree = "<group>"; };
+		F36F6652863175FDE16D90EF0BEF19B7 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Source/WebSocket.swift; sourceTree = "<group>"; };
+		F57959BBDDA9210163F0CBFB7527AE25 /* Socket.IO-Client-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Socket.IO-Client-Swift-prefix.pch"; sourceTree = "<group>"; };
+		F83D48B450D21095FBEC2185F938BE67 /* SocketExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketExtensions.swift; path = Source/SocketExtensions.swift; sourceTree = "<group>"; };
+		FD80A7ADAB722173423A36E7463C4AFB /* SocketTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketTypes.swift; path = Source/SocketTypes.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F727012E6375CD490605FC6463B3DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44836D6E93955EBEE6899C9F6657D41 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557F5875C1A0F1B3E77BAC7CAEBF44E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CE387651CA44136AA51EEF1D401994B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14DB1137FFA1BF68F53FB8429C5A94D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04268FB52E6A9766A2DB0AA335C3DC46 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F73ED47BBCE4917E2652A504173471E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310BF420769FF4CD201803E017B424EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06FCB82AA93FF76BA547AB1D3AB0ADFF /* Socket.IO-Client-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				9B59BDFD692606D25A027C43E6C89A5C /* SocketAckEmitter.swift */,
+				0F244CCBBA45069AA8A524715B8E5966 /* SocketAckManager.swift */,
+				6D9571AF94B7FB655E7868AEF99404CB /* SocketAnyEvent.swift */,
+				2B1526DC8C1273F235789BF159D7714F /* SocketClientManager.swift */,
+				31F0F03BBE73D643AD0486ADFE0A8AC5 /* SocketEngine.swift */,
+				51D342D3CD8230E8928AFA54BF2F79D0 /* SocketEngineClient.swift */,
+				525F0BEBFC24363C1C12BFED1C52E09A /* SocketEnginePacketType.swift */,
+				E330F9F321E4350813202BD51BC3F67A /* SocketEnginePollable.swift */,
+				1670BB5EB79304C745E1AE522C2461EE /* SocketEngineSpec.swift */,
+				5603ECF44D6231ED2C54E8BC2F385A37 /* SocketEngineWebsocket.swift */,
+				043D782257DB50BC7B57630A5BD577C6 /* SocketEventHandler.swift */,
+				F83D48B450D21095FBEC2185F938BE67 /* SocketExtensions.swift */,
+				38EAE89FD26A461FD18EFD671BC2A669 /* SocketIOClient.swift */,
+				9693A3F4FEDC4DE12781103EE82CB97D /* SocketIOClientConfiguration.swift */,
+				AC6DB44BEB912798F945A7288622BC11 /* SocketIOClientOption.swift */,
+				320E64E91F0F5C8DABC045FC2BF66DF1 /* SocketIOClientSpec.swift */,
+				F306E01D91D86C36440F2FAD6F23C988 /* SocketIOClientStatus.swift */,
+				29A3BB339105AF5BC77EB85BD3CB18E6 /* SocketLogger.swift */,
+				117F685036DDF69767FA0894A36AFD79 /* SocketPacket.swift */,
+				6AE9ACCB4FBAE731DCA98FD8DB00CF2B /* SocketParsable.swift */,
+				670BE73CF5968D8D6D6C8AAC526F90E2 /* SocketStringReader.swift */,
+				FD80A7ADAB722173423A36E7463C4AFB /* SocketTypes.swift */,
+				996BB3B147D524EF800F2194B91709F1 /* SSLSecurity.swift */,
+				F36F6652863175FDE16D90EF0BEF19B7 /* WebSocket.swift */,
+				C964BA47013163C7F484F1A789B76193 /* Support Files */,
+			);
+			name = "Socket.IO-Client-Swift";
+			path = "Socket.IO-Client-Swift";
+			sourceTree = "<group>";
+		};
+		4CA7003117EE67ABC724BE2D7497535D /* Pods-WakeMeUpOnTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E8D7F284DC4E080C811FAABAEE05E31 /* Info.plist */,
+				EDBA3091368644FAB69F3E173EAD15A6 /* Pods-WakeMeUpOnTVTests.modulemap */,
+				0C1565CC322B964B226DD83C7806CAEF /* Pods-WakeMeUpOnTVTests-acknowledgements.markdown */,
+				24CCECE5940EB81EB11EB3DDEF747340 /* Pods-WakeMeUpOnTVTests-acknowledgements.plist */,
+				A797A05BA2A2161AF8DFC45787621144 /* Pods-WakeMeUpOnTVTests-dummy.m */,
+				2139EB208291CDE304C415D57AB534E4 /* Pods-WakeMeUpOnTVTests-frameworks.sh */,
+				1D0E96DEFAEB851CF59214C279AE4E68 /* Pods-WakeMeUpOnTVTests-resources.sh */,
+				2396D64D277E1FB9BCA2E6C091A4CEAA /* Pods-WakeMeUpOnTVTests-umbrella.h */,
+				30EE1D72460ECCE07427A6D8A5ABFFF2 /* Pods-WakeMeUpOnTVTests.debug.xcconfig */,
+				E03D962EA156FA017160D20D15C9BA72 /* Pods-WakeMeUpOnTVTests.release.xcconfig */,
+			);
+			name = "Pods-WakeMeUpOnTVTests";
+			path = "Target Support Files/Pods-WakeMeUpOnTVTests";
+			sourceTree = "<group>";
+		};
+		6DB579E42D842D1242B13C1862FD8057 /* Pods-WakeMeUpOnTV */ = {
+			isa = PBXGroup;
+			children = (
+				679DD8DF0E1832A0D1DC9E99A0C0FD78 /* Info.plist */,
+				9EE1A3B40C4DB00F2549664C2A6187D9 /* Pods-WakeMeUpOnTV.modulemap */,
+				2B069E69A04BD4555A7A37903B9892F7 /* Pods-WakeMeUpOnTV-acknowledgements.markdown */,
+				3EB6219401144435647344B68DD4F0D0 /* Pods-WakeMeUpOnTV-acknowledgements.plist */,
+				94B024707B511A129BB3BCCF314B525A /* Pods-WakeMeUpOnTV-dummy.m */,
+				D8B6B7332A68BB40F5FD44A7CEDB3E2A /* Pods-WakeMeUpOnTV-frameworks.sh */,
+				67DA887A433AA4BDCA721D4E9EE042FE /* Pods-WakeMeUpOnTV-resources.sh */,
+				EEE7A9DF35B81410CEE6A47A183D2D97 /* Pods-WakeMeUpOnTV-umbrella.h */,
+				2A0084279BB3BF0BDA6CA82A98E84EB8 /* Pods-WakeMeUpOnTV.debug.xcconfig */,
+				3354612226DA3AA86B887E5EEE2EAC92 /* Pods-WakeMeUpOnTV.release.xcconfig */,
+			);
+			name = "Pods-WakeMeUpOnTV";
+			path = "Target Support Files/Pods-WakeMeUpOnTV";
+			sourceTree = "<group>";
+		};
+		77EB3703BD9143ED7B6FF5195BD3C92E /* Pods-WakeMeUpOnTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8875CC6BEDB6E823EF9ACB2DE0A7AB3 /* Info.plist */,
+				4FB06277C9DBBC54BFF743A1AAE69A69 /* Pods-WakeMeUpOnTVUITests.modulemap */,
+				351E9CAD4B4510F8E41868909AD670E9 /* Pods-WakeMeUpOnTVUITests-acknowledgements.markdown */,
+				6B60190A983F3D7799E5C38BFFE508DF /* Pods-WakeMeUpOnTVUITests-acknowledgements.plist */,
+				BD6D4E83D2CFE42C574ADDEC8DBD6937 /* Pods-WakeMeUpOnTVUITests-dummy.m */,
+				591AEC4537ADF387371F3BFFABE05F98 /* Pods-WakeMeUpOnTVUITests-frameworks.sh */,
+				33C0F24DB10C219BE1500DADCAB2B980 /* Pods-WakeMeUpOnTVUITests-resources.sh */,
+				0FD1C0F1A6E4A691E4B4959876BF0C8C /* Pods-WakeMeUpOnTVUITests-umbrella.h */,
+				6F990922E6A08952D6ADA6D1545ACB52 /* Pods-WakeMeUpOnTVUITests.debug.xcconfig */,
+				8F79FC7CE74D0294495579B2C76CA582 /* Pods-WakeMeUpOnTVUITests.release.xcconfig */,
+			);
+			name = "Pods-WakeMeUpOnTVUITests";
+			path = "Target Support Files/Pods-WakeMeUpOnTVUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				87AC66C613B2A233B3C94B7B15C485E3 /* Pods */,
+				FEB753D87216DF324BC3DF3BB9B2FBB4 /* Products */,
+				FE0F3FE62B5172A85B8620AE5F4C5718 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87AC66C613B2A233B3C94B7B15C485E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06FCB82AA93FF76BA547AB1D3AB0ADFF /* Socket.IO-Client-Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C964BA47013163C7F484F1A789B76193 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E852147BB8CA11C60363B97C1193E41 /* Info.plist */,
+				05DD98DF656FDC7D8E64CD40CC3F4047 /* Socket.IO-Client-Swift.modulemap */,
+				9F9012D1CF800972BED941165B70893F /* Socket.IO-Client-Swift.xcconfig */,
+				87905EC17B5665096942646DB7542569 /* Socket.IO-Client-Swift-dummy.m */,
+				F57959BBDDA9210163F0CBFB7527AE25 /* Socket.IO-Client-Swift-prefix.pch */,
+				3F57EC4469168DB9A573C09EAF2AEF49 /* Socket.IO-Client-Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Socket.IO-Client-Swift";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FE0F3FE62B5172A85B8620AE5F4C5718 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DB579E42D842D1242B13C1862FD8057 /* Pods-WakeMeUpOnTV */,
+				4CA7003117EE67ABC724BE2D7497535D /* Pods-WakeMeUpOnTVTests */,
+				77EB3703BD9143ED7B6FF5195BD3C92E /* Pods-WakeMeUpOnTVUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FEB753D87216DF324BC3DF3BB9B2FBB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				168DF9954CEE5951161407211CD223C0 /* Pods_WakeMeUpOnTV.framework */,
+				DC9E2C53A96C677AB0A777CD580CD728 /* Pods_WakeMeUpOnTVTests.framework */,
+				ABDA5488963F1762EF44A7D3CF9E1500 /* Pods_WakeMeUpOnTVUITests.framework */,
+				D9B38A5E25B88074A6B7C93C2AAA58F3 /* SocketIO.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5D844BD35289898673B3D9045E17D455 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195BA73FEBAB1F4446627663FD20FC96 /* Pods-WakeMeUpOnTVUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6967BD6DE18CE3C910ABBABC410D6DF4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5557953156F9315AE4C175BD9FA3DE5 /* Pods-WakeMeUpOnTVTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AB4AD35F82F2AC94D49CB1F48880F84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				612BED26F81CCFC6AEE375689717584B /* Socket.IO-Client-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0223D2C644DC4F4B23FEED33E7405DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98A75194667CFBAD6D29E4B89BD13EDD /* Pods-WakeMeUpOnTV-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6F174B00483E23A7415C4800FD4543BE /* Pods-WakeMeUpOnTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FF10279360CC2654FBB887476DF3D13 /* Build configuration list for PBXNativeTarget "Pods-WakeMeUpOnTVTests" */;
+			buildPhases = (
+				D30E52D8FE1B0120358EF5F8E7BC3861 /* Sources */,
+				F73ED47BBCE4917E2652A504173471E1 /* Frameworks */,
+				6967BD6DE18CE3C910ABBABC410D6DF4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WakeMeUpOnTVTests";
+			productName = "Pods-WakeMeUpOnTVTests";
+			productReference = DC9E2C53A96C677AB0A777CD580CD728 /* Pods_WakeMeUpOnTVTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		761A089A1E8806AAC1EF9E68A17DF901 /* Socket.IO-Client-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A0A51A9CAF00B3F3ECAE5844B0B679C /* Build configuration list for PBXNativeTarget "Socket.IO-Client-Swift" */;
+			buildPhases = (
+				7D22E319DCC9C9C93B8F0A9D4C5E3F77 /* Sources */,
+				557F5875C1A0F1B3E77BAC7CAEBF44E2 /* Frameworks */,
+				7AB4AD35F82F2AC94D49CB1F48880F84 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Socket.IO-Client-Swift";
+			productName = "Socket.IO-Client-Swift";
+			productReference = D9B38A5E25B88074A6B7C93C2AAA58F3 /* SocketIO.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9DBDC8837364DE8056D230D556ECF523 /* Pods-WakeMeUpOnTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 123AF2303F15943B2CDAB6E9FC4DFBBA /* Build configuration list for PBXNativeTarget "Pods-WakeMeUpOnTVUITests" */;
+			buildPhases = (
+				46DCDDE8007CA11E0B9B8DB3FE1A893A /* Sources */,
+				A14DB1137FFA1BF68F53FB8429C5A94D /* Frameworks */,
+				5D844BD35289898673B3D9045E17D455 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WakeMeUpOnTVUITests";
+			productName = "Pods-WakeMeUpOnTVUITests";
+			productReference = ABDA5488963F1762EF44A7D3CF9E1500 /* Pods_WakeMeUpOnTVUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F31BBAE200A09212900A26D59D5A0F13 /* Pods-WakeMeUpOnTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDCFC24C785145B6B215C75A3ED8D010 /* Build configuration list for PBXNativeTarget "Pods-WakeMeUpOnTV" */;
+			buildPhases = (
+				8E036963756F3F60DB7E1A0F99B0312D /* Sources */,
+				1F727012E6375CD490605FC6463B3DB1 /* Frameworks */,
+				A0223D2C644DC4F4B23FEED33E7405DC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				878327D23C8F4AB58DA2BF9A5BC41191 /* PBXTargetDependency */,
+			);
+			name = "Pods-WakeMeUpOnTV";
+			productName = "Pods-WakeMeUpOnTV";
+			productReference = 168DF9954CEE5951161407211CD223C0 /* Pods_WakeMeUpOnTV.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FEB753D87216DF324BC3DF3BB9B2FBB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F31BBAE200A09212900A26D59D5A0F13 /* Pods-WakeMeUpOnTV */,
+				6F174B00483E23A7415C4800FD4543BE /* Pods-WakeMeUpOnTVTests */,
+				9DBDC8837364DE8056D230D556ECF523 /* Pods-WakeMeUpOnTVUITests */,
+				761A089A1E8806AAC1EF9E68A17DF901 /* Socket.IO-Client-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46DCDDE8007CA11E0B9B8DB3FE1A893A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0DBFDE95518059C9516863677CC619 /* Pods-WakeMeUpOnTVUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D22E319DCC9C9C93B8F0A9D4C5E3F77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DAD561D1B3266FB3BB1AB7FC2712EC6 /* Socket.IO-Client-Swift-dummy.m in Sources */,
+				3F5F40B3E64ACEAC4C32D021EAF8DA19 /* SocketAckEmitter.swift in Sources */,
+				142D1235749BFEEB5F56007C9AFCD8D6 /* SocketAckManager.swift in Sources */,
+				C70FFC92D3DF2721F5FFC0B62A1BD194 /* SocketAnyEvent.swift in Sources */,
+				F7A4234746445670F8D59D8B8D633756 /* SocketClientManager.swift in Sources */,
+				5B07AD47652CCF9CAFD6120AFEC434BB /* SocketEngine.swift in Sources */,
+				D11099E3BD97AD84BC952D75501924C2 /* SocketEngineClient.swift in Sources */,
+				04C47BE51BBA5BC4FC66086431D22217 /* SocketEnginePacketType.swift in Sources */,
+				FA80490DA9607BC1368E802323531EDB /* SocketEnginePollable.swift in Sources */,
+				A2BBD9003E7350174C7327CCAF722CB2 /* SocketEngineSpec.swift in Sources */,
+				61F2B8C53EE008903F3811A20F9AF70E /* SocketEngineWebsocket.swift in Sources */,
+				5E96DDAE5B705D02A956C5E44B9A99DD /* SocketEventHandler.swift in Sources */,
+				A0C0749B5FEC2C78D10B68A27E2E1843 /* SocketExtensions.swift in Sources */,
+				81B1B30582BEAB372030B6D4ED6C4034 /* SocketIOClient.swift in Sources */,
+				1BAA5F94A249336181E836C3432728A0 /* SocketIOClientConfiguration.swift in Sources */,
+				9EC20AEAF12D9B88D7C2352CAA6C7E07 /* SocketIOClientOption.swift in Sources */,
+				6EF5A32683A60922FD6B887A7582E026 /* SocketIOClientSpec.swift in Sources */,
+				D25EC93449EFBE7E6C8E956F16DAFEFD /* SocketIOClientStatus.swift in Sources */,
+				D62CE0FBACC0FEADA24C93F48D5F9230 /* SocketLogger.swift in Sources */,
+				CCF414C3FD6A3CAEBD9E6A02A20CFB01 /* SocketPacket.swift in Sources */,
+				FEDEBDC219D50C1EA23E23184C5255E1 /* SocketParsable.swift in Sources */,
+				65CA252C5060B3AE6430E4B7CF3C4312 /* SocketStringReader.swift in Sources */,
+				D63B18FEBD18DCE5C8E2F4185608B10C /* SocketTypes.swift in Sources */,
+				A781235845E09D17E48325E4A5782F4F /* SSLSecurity.swift in Sources */,
+				997DE3C8514FB68D4ECE345F2098668E /* WebSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E036963756F3F60DB7E1A0F99B0312D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6122C81DE633B2A2B64866913DAD70 /* Pods-WakeMeUpOnTV-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30E52D8FE1B0120358EF5F8E7BC3861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F40EA2D806060CE1E74CD03866B574 /* Pods-WakeMeUpOnTVTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		878327D23C8F4AB58DA2BF9A5BC41191 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Socket.IO-Client-Swift";
+			target = 761A089A1E8806AAC1EF9E68A17DF901 /* Socket.IO-Client-Swift */;
+			targetProxy = 8CD3650BC0B580947EAD0EC0FA960215 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CC07C75CFB221C9F8C68FA4AC136798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F79FC7CE74D0294495579B2C76CA582 /* Pods-WakeMeUpOnTVUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WakeMeUpOnTVUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WakeMeUpOnTVUITests/Pods-WakeMeUpOnTVUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WakeMeUpOnTVUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		35B3F959CC42E5DB357A949905EE3EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A0084279BB3BF0BDA6CA82A98E84EB8 /* Pods-WakeMeUpOnTV.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WakeMeUpOnTV/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WakeMeUpOnTV/Pods-WakeMeUpOnTV.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WakeMeUpOnTV;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		85129406C26990B528A4D9DA1CFC154F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F990922E6A08952D6ADA6D1545ACB52 /* Pods-WakeMeUpOnTVUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WakeMeUpOnTVUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WakeMeUpOnTVUITests/Pods-WakeMeUpOnTVUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WakeMeUpOnTVUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8C36477BC77173DA9157FE915C92532B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3354612226DA3AA86B887E5EEE2EAC92 /* Pods-WakeMeUpOnTV.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WakeMeUpOnTV/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WakeMeUpOnTV/Pods-WakeMeUpOnTV.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WakeMeUpOnTV;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9679CA659F1CB3F2FF9AFF72DB8B3603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F9012D1CF800972BED941165B70893F /* Socket.IO-Client-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Socket.IO-Client-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SocketIO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE16ED8886494927A08C240EBBBBDB10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E03D962EA156FA017160D20D15C9BA72 /* Pods-WakeMeUpOnTVTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WakeMeUpOnTVTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WakeMeUpOnTVTests/Pods-WakeMeUpOnTVTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WakeMeUpOnTVTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E557203ABC587A10DA6107541BE6C769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F9012D1CF800972BED941165B70893F /* Socket.IO-Client-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Socket.IO-Client-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SocketIO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F699D3520C5E8AF8E1988DF92BC025ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30EE1D72460ECCE07427A6D8A5ABFFF2 /* Pods-WakeMeUpOnTVTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WakeMeUpOnTVTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WakeMeUpOnTVTests/Pods-WakeMeUpOnTVTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WakeMeUpOnTVTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A0A51A9CAF00B3F3ECAE5844B0B679C /* Build configuration list for PBXNativeTarget "Socket.IO-Client-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E557203ABC587A10DA6107541BE6C769 /* Debug */,
+				9679CA659F1CB3F2FF9AFF72DB8B3603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FF10279360CC2654FBB887476DF3D13 /* Build configuration list for PBXNativeTarget "Pods-WakeMeUpOnTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F699D3520C5E8AF8E1988DF92BC025ED /* Debug */,
+				BE16ED8886494927A08C240EBBBBDB10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		123AF2303F15943B2CDAB6E9FC4DFBBA /* Build configuration list for PBXNativeTarget "Pods-WakeMeUpOnTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85129406C26990B528A4D9DA1CFC154F /* Debug */,
+				1CC07C75CFB221C9F8C68FA4AC136798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDCFC24C785145B6B215C75A3ED8D010 /* Build configuration list for PBXNativeTarget "Pods-WakeMeUpOnTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35B3F959CC42E5DB357A949905EE3EF0 /* Debug */,
+				8C36477BC77173DA9157FE915C92532B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

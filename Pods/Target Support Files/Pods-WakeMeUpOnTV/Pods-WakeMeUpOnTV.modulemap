@@ -1,0 +1,6 @@
+framework module Pods_WakeMeUpOnTV {
+  umbrella header "Pods-WakeMeUpOnTV-umbrella.h"
+
+  export *
+  module * { export * }
+}
